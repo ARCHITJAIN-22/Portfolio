@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <style>
+        body {
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c9e288;
+        }
+
+        header {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #7e1212;
+            color: #ffffff;
+            padding: 40px 0;
+            text-align: center;
+            font-size: larger;
+        
+        }
+
+        footer {
+            background-color: #7e1212;
+            color: #ffffff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-me, .skills, .experience, .education, .interests {
+            margin-bottom: 30px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+ ::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(240, 248, 255, 0.443);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #7e1212;
+    border-radius: 10px;
+}
+        
+        .contact-info div {
+            text-align: center;
+        }
+
+        .contact-info img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<link rel="icon" href="fevicon.png"type="icon/png">
+<body>
+   
+<header>
+  <!-- <h1><pre>Hey, I AM ARCHIT JAIN 
+  A DEVELOPER </pre></h1> -->
+
+  <div class="containet">
+    <div><span id="element"></span></div>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    
+    var typed = new Typed ('#element', {
+      strings: ['HELLO, I AM ARCHIT JAIN  ', 'A FRONTEND DEVELOPER'],
+      typeSpeed: 60,
+     loop: true
+    });
+  </script></header></body>
+
+</header>
+<hr>
+
+<div class="container">
+    <section class="about-me">
+        <h2>About Me</h2>
+        <hr>
+        <p>I am a dedicated B.Tech student at LNCT Bhopal with a fervent interest in technology and innovation. Currently pursuing a Bachelor's degree in Artificial Intelligence and Machine Learning, I am driven by a passion for pushing the boundaries of what is possible in the tech industry.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <hr>
+        <ul>
+            <li><strong>Programming Languages:</strong> Proficient in <mark>C/C++</mark> and<mark> HTML 5</mark>.</li>
+            <li><strong>Arduino Enthusiast:</strong> Skilled in <mark>Arduino DIY projects</mark>, exploring the realms of hardware and automation systems.</li>
+            <li><strong>3D Printing:</strong> Well-versed in<mark> 3D printing</mark> techniques and applications.</li>
+            <li><strong>Drone Development:</strong> Experienced in developing drones, leveraging cutting-edge technologies for innovation.</li>
+            <li><strong>Chess:</strong> A professional chess player, demonstrating strategic thinking and analytical skills.</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <hr>
+        <ul>
+            <li><strong>Internship at "Growintern":</strong> Currently enhancing my skills as a basic <mark>Frontend Developer</mark>, gaining valuable industry experience.</li>
+            <li><strong>Arduino Projects:</strong> Demonstrated proficiency as an Arduino project developer, showcasing creativity and technical prowess.</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <hr>
+        <p><strong>Bachelor's in Artificial Intelligence and Machine Learning:</strong> Pursuing my degree at <mark>LNCT Bhopalc </mark>, striving for excellence in the field of AI and ML.</p>
+    </section>
+
+    <section class="interests">
+        <h2>Interests</h2>
+        <hr>
+        <p>Apart from my technological pursuits, I am an avid reader of self-help books, constantly seeking personal and professional growth opportunities.</p>
+    </section>
+    <hr>
+
+    <section class="contact">
+        <footer><h1>contact-info</h1></footer>
+        <hr>
+        <!-- <h2>Contact Us</h2> -->
+        <div class="contact-info">
+            <div>
+                
+
+                <img src="gmail.png" alt="Email"><br>
+                <a href="mailto:jainarchit22072005@gmail.com" target="_blank"><button
+                        style="solid #007bff ;
+                    background :#007bff;
+                    padding: 10px;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 6px;">Email</button></a>
+            </div>
+            <div>
+                <img src="instagram logo.jpeg" alt="Instagram"><br>
+                <a href="https://www.instagram.com/archit_jain22?igsh=ZGVlOTZldzUwZGNk" target="_blank"><button
+                        style="solid #007bff ;
+                    background :#007bff;
+                    padding: 10px;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 6px;">Instagram</button></a>
+            </div>
+            <div>
+                <img src="phone.jpeg" alt="Phone"><br>
+                <a href="tel:+918966987438" target="_blank"><button style="solid #007bff ;
+                background :#007bff;
+                padding: 10px;
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;"
+                    >Contact No</button></a>
+            </div>
+            <div>
+                <img src="linkedin.png" alt="LinkedIn"><br>
+                <a href="https://www.linkedin.com/in/archit-jain-0b4a09297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><button
+                        style="solid #007bff ;
+                    background :#007bff;
+                    padding: 10px;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 6px;">LinkedIn</button></a>
+            </div>
+        </div>
+    </section>
+   
+</div>
+
+</body>
+</html>
